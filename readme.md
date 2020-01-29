@@ -1,5 +1,11 @@
 # TESTE DE ESTÁGIO FRONT-END HTML, CSS E JAVASCRIPT
 > link do projeto Adobe XD: https://xd.adobe.com/view/a44042ef-99e2-46fa-545c-ce4f6686b811-d271/?fullscreen
+
+# IMPORTANTE
+```sh 
+Prazo de entrega: 10/02/2020
+```
+
 # REGRAS
  - Codificar o layout em CSS, HTML e Javascript
  - Usar font montsserat (google fonts)
