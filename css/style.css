@@ -25,12 +25,13 @@ body {
 }
 
 #tituloBanner {
-    color: #F7D622
+    color: #F7D622;
 }
 
 p {
     font-weight: 300;
     margin: 0;
+    color: white;
 }
 
 .carousel-control-next, .carousel-control-prev {
@@ -46,6 +47,19 @@ p {
 .card-text {
     color: #707070;
     font-size: 0.8rem;
+}
+
+#btnMais {
+    background-color: #F7D622;
+}
+
+footer {
+    background: #1B2629;
+}
+
+.nav-item > a {
+    color: white;
+    font-weight: 300;
 }
 
 @media (max-width: 1000px) 

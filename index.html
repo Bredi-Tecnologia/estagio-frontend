@@ -107,10 +107,84 @@
                     </div>
                 </div>
             </div>
+            <div id = "exibir" class="row mt-5 d-none">
+                <div class="col-sm-6 col-lg-3 d-flex justify-content-center">
+                    <div class="card">
+                        <img src="ARQUIVOS/sistema.png" class="card-img-top" alt="Criação de aplicativos">
+                        <div class="card-body">
+                            <h5 class="card-title">Aplicativos</h5>
+                            <p class="card-text">E-commerce, Games, Institucionais e Quiz</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 d-flex justify-content-center">
+                    <div class="card">
+                        <img src="ARQUIVOS/app.png" class="card-img-top" alt="Criação de aplicativos">
+                        <div class="card-body">
+                            <h5 class="card-title">Websites</h5>
+                            <p class="card-text">Institucionais, E-commerces, Blogs e Sites.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 d-flex justify-content-center">
+                    <div class="card">
+                        <img src="ARQUIVOS/back.png" class="card-img-top" alt="Criação de aplicativos">
+                        <div class="card-body">
+                            <h5 class="card-title">Sistemas online</h5>
+                            <p class="card-text">Sistema online e intranets.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 d-flex justify-content-center">
+                    <div class="card">
+                        <img src="ARQUIVOS/site.png" class="card-img-top" alt="Criação de aplicativos">
+                        <div class="card-body">
+                            <h5 class="card-title">Back e Front-end.</h5>
+                            <p class="card-text">E-commerce, Games, Institucionais e Quiz</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-5 mb-5 d-flex justify-content-center ">
+                <button id = "btnMais" type = "button" class="btn btn-lg border border-dark rounded-0">Veja Mais</button>
+            </div>
         </section>
     </main>
+    <footer>
+        <div class="row mr-0 p-3">
+            <div class="col-sm-6 d-flex align-items-center justify-content-center justify-content-sm-start">
+                <a class="ml-lg-5" href="#"><img id = "navLogo" src="ARQUIVOS/logo.png" alt="logo Bredi"></a>
+            </div>
+            <div class="col-sm-6">
+                <ul class="nav d-flex justify-content-end">
+                    <li class="d-none d-md-block nav-item">
+                        <a class="nav-link" href="#inicio">Início</a>
+                    </li>
+                    <li class="d-none d-md-block nav-item ml-lg-5">
+                        <a class="nav-link" href="#noticias">Noticias</a>
+                    </li>
+                    <li class="d-none d-md-block nav-item ml-lg-5">
+                        <a class="nav-link" href="#rodape">Rodapé</a>
+                    </li>
+                    <li class="nav-item ml-lg-5 d-flex align-items-center">
+                        <a class="nav-link d-inline" href="https://www.facebook.com/BrediTecnologiaDigital" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="nav-link d-inline" href="https://www.instagram.com/brediweb/" target="_blank"><i class="fab fa-instagram"></i></a>   
+                    </li>
+                </ul>
+                <p class="text-right mr-3">Rua Domingos Marreiros 90, sala 1308 Umarizal . Belém-PA . Brasil</p>
+                <p class="text-right mr-3">contato@bredi.com.br</p>
+            </div>
+        </div>
+        <div style="height:25px;background-color:rgb(46, 59, 63);">  
+        </div>
+    </footer>
 
-
+<script>
+    //não criei um arquivo separado porque vou adicionar apenas esse event listener
+    document.querySelector("#btnMais").addEventListener("click", function(){
+        document.querySelector("#exibir").classList.toggle("d-none");
+    });
+</script>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
