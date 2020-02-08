@@ -1,0 +1,19 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+#mainNav {
+    background: #1B2629;
+}
+
+.navbar-nav > li > a {
+    color: #F7D622 !important;
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+
+#navLogo {
+    max-width:120px;
+    max-height:40px;
+}
