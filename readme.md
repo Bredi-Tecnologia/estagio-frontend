@@ -3,7 +3,7 @@
 
 # IMPORTANTE
 ```sh 
-Prazo de entrega: 10/02/2020
+Prazo de entrega: 12/03/2021
 ```
 
 # REGRAS
