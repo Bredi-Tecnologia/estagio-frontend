@@ -1,0 +1,63 @@
+/* Formatação de texto */
+body{
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.nav-item a {
+	text-decoration: none;
+	color: #F7D622;
+	margin-left: 20px;
+	font-size: 1.2em;
+}
+
+#carousel {
+	margin-top: 100px;
+}
+footer span {
+	color: #979797;
+}
+
+footer a{
+	color: #979797;
+	margin-left: 40px;
+}
+
+footer a:hover {
+	color: #fff;
+}
+
+footer {
+	color: #979797;
+}
+
+#toFooter:hover {
+	color: #F7D622;
+}
+/* Botão Veja mais*/
+#btn_vejaMais {
+	padding: 12px 50px;
+	background-color: #F7D622;
+	border: 2px solid black;
+	font-weight: bold;
+}
+
+/* Media queries */
+
+@media (max-width: 575.98px) {
+	footer {
+		padding: auto 20px;
+	}
+}
+
+/* Animação cards*/
+
+@keyframes card {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+#card {
+	animation-name: card;
+	animation-duration: 2s;
+}
