@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+
+$font: 'Montserrat', sans-serif;
+$yellow: #F7D622;
+$dark: #1B2629;
+$card-description: #707070;
+
+@mixin transition-ease {
+  transition: all .5s ease-in-out;
+}
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 80px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* MENU */
+header nav  {
+  background: $dark;
+}
+
+header nav a img.logo {
+  margin-left: 58px;
+
+  @media only screen and (max-width: 800px) {
+    margin-left: 0;
+	}
+}
+
+header nav a.nav-link {
+  color: $yellow;
+  font-family: $font;
+  font-size: 1.125rem;
+  margin-right: 50px;
+  transition: all 0.3s ease 0s;
+}
+
+.header-text-left {
+  position: absolute;
+  top: 20%;
+  left: 1.8%;
+  right: auto;
+  width: 460px;
+  color: #fff;
+  margin-left: 2.5rem;
+
+  @media only screen and (max-width: 800px) {
+    display: none;;
+	}
+}
+
+.header-text-left span.line {
+    background: $yellow;
+    border-radius: 3rem;
+    width: 40px;
+    min-width: 40px;
+    height: 6px;
+    margin: 1.400rem 1rem 0 0;
+}
+
+.header-text-left h2.banner-title {
+  color: $yellow;
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-family: $font;
+  margin: 0 0 2rem;
+}
+
+.header-text-left p.banner-description {
+  color: $card-description + 100%;
+  max-width: 300px;
+  text-align: left;
+  font-family: $font;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0 0 3rem;
+}
+
+.header-text-right {
+  position: absolute;
+  top: 20%;
+  left: auto;
+  right: 1.8%;
+  width: 460px;
+  color: #fff;
+  margin-left: 3rem;
+
+  @media only screen and (max-width: 800px) {
+    display: none;;
+	}
+}
+
+.header-text-right span.line {
+    background: $yellow;
+    border-radius: 3rem;
+    width: 40px;
+    min-width: 40px;
+    height: 6px;
+    margin: 1.400rem 1rem 0 0;
+}
+
+.header-text-right h2.banner-title {
+  color: $yellow;
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-family: $font;
+  margin: 0 0 2rem;
+}
+
+.header-text-right p.banner-description {
+  color: $card-description + 100%;
+  max-width: 300px;
+  text-align: left;
+  font-family: $font;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0 0 3rem;
+}
+
+.carousel-control-prev-icon {
+  margin-right: auto;  
+}
+
+.carousel-control-next-icon {
+  margin-left: auto;
+}
+
+/* Cards */
+section div.card-body h5{
+  font-family: $font;
+  font-weight: 600;
+}
+
+section div.card-body p{
+  font-family: $font;
+  font-size: .825rem;
+}
+
+section div a.btn {
+  display: inline-block;
+  margin: 0 auto;
+  text-decoration: none;
+  font-size: 1.25rem;
+  text-align: center;
+  font-weight: 600;
+  background: $yellow; 
+  border: 2px solid $dark;
+  color: $dark;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  padding: 10px 55px;
+  cursor: pointer;
+
+  &:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  }
+}
+
+footer div.container-fluid {
+  background: $dark - 10%;
+}
+
+footer div img.logo-footer {
+  margin-left: 58px;
+
+  @media only screen and (max-width: 799px) {
+    display: none;
+	}
+}
+
+footer div.footer-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 2rem;
+
+   @media only screen and (max-width: 799px) {
+    margin-right: 0;
+    justify-content: center;
+	}
+}
+
+footer div.footer-nav a { 
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  font-size: .900rem;
+  transition: 0.5s;
+  text-align: center;
+  font-family: $font;
+  color: $card-description + 1000%;
+
+  &:hover {
+    color: $yellow;
+  }
+}
+
+footer div p.text-footer {
+  font-size: .825rem;
+  color: $card-description + 1000%;
+  font-family: $font;
+  display: block;
+}
+
+footer div p.contact-footer {
+  font-size: .825rem;
+  color: $card-description + 1000%;
+  font-family: $font;
+}
+
+
+
