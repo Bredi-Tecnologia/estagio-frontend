@@ -1,0 +1,121 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #707070;
+}
+
+.navbar {
+  background-color: #1b2629;
+  color: #fff;
+}
+
+.navbar-toggler {
+  background-color: #fff;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+.navbar-nav .nav-link {
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 50px;
+  line-height: 50px;
+}
+
+.nav-link {
+  color: #f7d622;
+  cursor: pointer;
+  font-size: 1.3rem;
+  margin-right: 3em;
+  transition: 0.2s;
+}
+
+.nav-link:hover {
+  opacity: 0.6;
+  color: #f7d622;
+}
+
+.carousel-inner img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.fa-chevron-circle-left,
+.fa-chevron-circle-right {
+  font-size: 2.5em;
+}
+
+.card-img-top {
+  width: 100%;
+  border-radius: 0;
+  object-fit: contain;
+}
+
+.btn-lg {
+  background-color: #f7d622;
+  border: 3px outset #000;
+  border-radius: 0;
+  padding: 0.7rem 4rem 0.7rem 4rem;
+  font-weight: 700;
+}
+
+.site-footer {
+  background-color: #1b2629;
+}
+
+.nav-link-footer {
+  color: #fff;
+  font-size: 1rem;
+  margin-right: 4em;
+  line-height: 1.5em;
+  font-weight: 200;
+  transition: 0.2s;
+}
+
+.nav-link-footer:hover {
+  opacity: 0.6;
+  color: #fff;
+  font-style: none;
+  text-decoration: none;
+}
+
+.fa-facebook-f {
+  margin-right: 0.8em;
+}
+
+.nav-icon-footer {
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+.nav-adress {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.nav-email {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.bottom-bar {
+  background-color: #37474b;
+  width: 100%;
+  height: 1.8rem;
+}
