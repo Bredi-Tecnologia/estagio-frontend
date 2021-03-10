@@ -1,0 +1,35 @@
+#section-marketing {
+  width: 100%;
+}
+
+#section-marketing .card {
+  border: 0;
+}
+
+@media (max-width: 375px) {
+  #section-marketing .row {
+    margin: 0 1rem 10px 1rem;
+
+    display: flex;
+    align-content: space-between;
+    justify-content: space-evenly;
+  }
+
+  #section-marketing .row .col-md-3 {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 1080px) {
+  #section-marketing .row {
+    margin-bottom: 1rem;
+  }
+
+  #section-marketing .row .col-md-3 {
+    width: 50%;
+    max-width: 100%;
+    margin-bottom: 1.5rem;
+  }
+}

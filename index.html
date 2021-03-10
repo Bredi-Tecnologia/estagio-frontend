@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bredi - Criação web sob medida</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./assets/styles/carousel.css" rel="stylesheet">
+    <link href="./assets/styles/marketing.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/styles/global.css">
+
+</head>
+
+<body>
+
+
+    <div id="bredi" class="container-bredi">
+        <header>
+            <div class="header-inner">
+
+                <nav class="navbar navbar-expand-lg navbar-custom px-4">
+                    <div class="container-fluid">
+                        <div class="d-flex justify-content-between" style="width: 100%;">
+                            <a href="#" class="navbar-brand ml-5">
+                                <img style="width: 100%; max-width: 100px;" src="./assets/icons/logo.svg" alt="logo">
+                            </a>
+
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#collapsibleNavbar">
+                                <!-- <span class="navbar-toggler-icon"></span> -->
+                                <img src="./assets/icons/menu.svg" alt="menu">
+                            </button>
+                        </div>
+
+
+                        <div class="collapse navbar-collapse mr-5 mt-3" id="collapsibleNavbar">
+                            <ul class="navbar-nav my-auto mb-lg-0">
+                                <li class="nav-item mx-4">
+                                    <a class="nav-link active" aria-current="page" href="#bredi">Início</a>
+                                </li>
+
+                                <li class="nav-item mx-4">
+                                    <a class="nav-link" href="_blank">Noticias</a>
+                                </li>
+
+                                <li class="nav-item mx-4">
+                                    <a class="nav-link" href="#rodape">Rodapé</a>
+                                </li>
+
+                                <div class="d-flex">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="https://www.facebook.com/BrediTecnologiaDigital"
+                                            target="_blank">
+                                            <img src="./assets/icons/facebook.svg" alt="facebook"
+                                                style="width: 18px; height: 18px;">
+                                        </a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a class="nav-link" href="https://www.instagram.com/brediweb/" target="_blank">
+                                            <img src="./assets/icons/insta.svg" alt="instagram"
+                                                style="width: 18px; height: 18px;">
+                                        </a>
+                                    </li>
+                                </div>
+
+
+                            </ul>
+
+                        </div>
+
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section id="section-carousel">
+                <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <!-- <div class="carousel-indicators"></div> -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img id="img-banner" src="" alt="banner">
+
+                            <div class="container">
+                                <div class="carousel-caption text-custom text-start">
+                                    <h3>
+                                        -TITLE
+                                    </h3>
+                                    <p class="d-none d-md-block">
+                                        -DESCRIPTION
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a id="prev-btn" class="carousel-control-prev">
+                        <span class="carousel-control-prev-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="rgba(0,0,0,3.9)"
+                                class="bi bi-chevron-left" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
+                            </svg>
+                        </span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+
+                    <a>
+                        <i id="next-btn" class="carousel-control-next">
+                            <span class="carousel-control-next-icon" aria-hidden="true">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="rgba(0,0,0,3.9)"
+                                    class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                                </svg>
+                            </span>
+                            <span class="sr-only">Next</span>
+                        </i>
+                    </a>
+                </div>
+            </section>
+
+            <section id="section-marketing">
+
+                <div class="row mx-0 d-flex" style="margin-bottom: 5rem;">
+                    <div class="col-md-3 px-1">
+                        <div class="card">
+                            <a href="#">
+                                <img src=" ./assets/images/card1.png" class="card-img-top" alt="card1">
+                                <div class="card-body p-0 pt-3">
+                                    <h5 class="card-title">Back e Front-end</h5>
+                                    <p class="card-text">Ecommerce, Games, Institucionais e Quiz.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 px-1">
+                        <div class="card">
+                            <a href="#">
+                                <img src=" ./assets/images/card2.png" class="card-img-top" alt="card1">
+                                <div class="card-body p-0 pt-3">
+                                    <h5 class="card-title">Back e Front-end</h5>
+                                    <p class="card-text">Ecommerce, Games, Institucionais e Quiz.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 px-1 ">
+                        <div class="card">
+                            <a href="#">
+                                <img src=" ./assets/images/card3.png" class="card-img-top" alt="card1">
+                                <div class="card-body p-0 pt-3">
+                                    <h5 class="card-title">Back e Front-end</h5>
+                                    <p class="card-text">Ecommerce, Games, Institucionais e Quiz.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 px-1">
+                        <div class="card">
+                            <a href="#">
+                                <img src=" ./assets/images/card4.png" class="card-img-top" alt="card1">
+                                <div class="card-body p-0 pt-3">
+                                    <h5 class="card-title">Back e Front-end</h5>
+                                    <p class="card-text">Ecommerce, Games, Institucionais e Quiz.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div style="margin-bottom: 3rem;" class="d-flex aligm-items-center justify-content-center">
+                    <p>
+                        <a class="btn btn-lgs btn-primary py-3 px-5"
+                            style="background-color: yellow; color: #000; font-weight: 700; border: 1px solid #000; border-radius: 0;"
+                            href="#" target="_blank">Veja mais
+                        </a>
+                    </p>
+                </div>
+            </section>
+        </main>
+
+        <footer id="rodape">
+            <div class="container-fluid d-flex ">
+                <div id="logo-footer" class="container-fluid d-flex justify-content-start p-5">
+                    <img class="ms-5" src="./assets/icons/logo.svg" alt="logo" style="width: 9.4rem;">
+                </div>
+
+                <div class="container-fluid d-flex justify-content-end aligm-items-center mr-5
+                ">
+                    <div class="contact-information d-flex flex-column justify-content-end">
+                        <div class="links mt-4">
+                            <ul class="d-flex aligm-items-center justify-content-between"
+                                style="list-style-type: none;">
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link active" aria-current="page" href="#">Início</a>
+                                </li>
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link" href="_blank">Noticias</a>
+                                </li>
+
+                                <li class="nav-item mx-2">
+                                    <a class="nav-link" href="#bredi">Rodapé</a>
+                                </li>
+                                <div class="d-flex">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="https://www.facebook.com/BrediTecnologiaDigital"
+                                            target="_blank">
+                                            <img src="./assets/icons/facebook.svg" alt="facebook"
+                                                style="width: 16px; height: 16px;">
+                                        </a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a class="nav-link" href="https://www.instagram.com/brediweb/" target="_blank">
+                                            <img src="./assets/icons/insta.svg" alt="instagram"
+                                                style="width: 16px; height: 16px;">
+                                        </a>
+                                    </li>
+                                </div>
+
+
+                            </ul>
+                        </div>
+
+                        <div class="d-flex flex-column justify-content-end aligm-item-end mb-4 mr-3 ">
+                            <p style="color: #707070;font-size: 14px;">Rua domingos Marreiros 49, sala 1308 Umarizal -
+                                Belém-PA - Brasil
+                            </p>
+                            <a style="text-align: end; color: #707070;font-size: 14px;"
+                                href="mailto:contato@bredi.com.br">contato@bredi.com.br</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <script src="./assets/js/index.js" type="module"></script>
+
+</body>
+
+</html>
