@@ -1,0 +1,140 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+#mainNav {
+    background: #1B2629;
+}
+
+.navbar-nav > li > a {
+    color: #F7D622 !important;
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+
+#navLogo {
+    max-width:120px;
+    max-height:40px;
+}
+
+.carousel-caption {
+    text-align: start;
+    font-size: 1.23rem;
+    left: 5%;
+}
+
+#tituloBanner {
+    color: #F7D622;
+}
+
+p {
+    font-weight: 300;
+    margin: 0;
+    color: white;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 6%;
+    margin-right: 10px;
+}
+
+.card {
+    border: 0;
+    max-width: 300px;
+}
+
+.card-text {
+    color: #707070;
+    font-size: 0.8rem;
+}
+
+#btnMais {
+    background-color: #F7D622;
+}
+
+#rodape {
+    background: #1B2629;
+}
+
+.nav-item > a {
+    color: white;
+    font-weight: 300;
+}
+
+@media (max-width: 1000px) 
+{
+    .carousel-caption {
+        text-align: start;
+        font-size:0.9rem;
+        left: 5%;
+    }
+
+    #tituloBanner {
+        color: #F7D622;
+        font-size: 1.2rem;
+        margin: 0;
+    }
+}
+
+@media (max-width:765px) 
+{
+    .carousel-caption {
+        text-align: start;
+        font-size:0.6rem;
+        margin: 0;
+        left: 5%;
+    }
+
+    #tituloBanner {
+        color: #F7D622;
+        font-size: 1.2rem;
+        margin: 0;
+    }
+}
+
+@media (max-width:500px) 
+{
+    .carousel-caption {
+        text-align: start;
+        font-size:0.43rem;
+        padding: 0;
+        padding-left: 15px;
+        left: 5%;
+    }
+
+    #tituloBanner {
+        color: #F7D622;
+        font-size: 0.9rem;
+        margin: 0;
+    }
+}
+
+@media (max-width:340px) 
+{
+    .carousel-caption {
+        text-align: start;
+        font-size:0.4rem;
+        padding: 0;
+        padding-left: 15px;
+        left: 5%;
+        bottom: 0;
+    }
+
+    #tituloBanner {
+        color: #F7D622;
+        font-size: 0.9rem;
+        margin: 0;
+    }
+}
