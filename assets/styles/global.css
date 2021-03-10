@@ -1,0 +1,273 @@
+:root {
+  --background: #f5f5f5;
+  --yellow: #f7d622; /* amarelo */
+  --yellow-dark: #f7d722de; /* amarelo */
+  --dark: #1b2629; /* escuro */
+  --title: #000000;
+  --text: #707070; /* descrição dos cards */
+  --white: #ffffff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+body {
+  background: var(--background);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+
+  width: 100vw;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body,
+button,
+input,
+textarea {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.container-bredi {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  /* grid-template-rows: ; */
+
+  row-gap: 20px;
+
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+
+  width: 100%;
+  max-width: 90%;
+  min-height: 100vh;
+}
+
+header {
+  order: 1;
+  grid-area: header;
+
+  width: 100%;
+
+  height: 80px;
+
+  max-width: 90vw;
+  max-height: 80px;
+}
+
+header .header-inner {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+
+  max-width: 90vw;
+  max-height: 70px;
+
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-custom {
+  background-color: var(--dark);
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: var(--yellow) !important;
+}
+
+.navbar-custom .navbar-collapse.show {
+  background-color: var(--dark);
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+  color: var(--yellow);
+  font-size: 1.2rem;
+
+  transition: 0.3s;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: #ffffff;
+}
+
+.navbar-custom .navbar-toggler {
+  color: rgba(247, 215, 34, 0.55) !important;
+  border-color: rgba(247, 215, 34, 0.1);
+}
+
+.container-bredi .header-inner ul li a:hover {
+  color: var(--white) !important;
+}
+.container-bredi ul li a img .header-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+main {
+  grid-area: main;
+
+  width: 100%;
+  height: 100%;
+
+  max-width: 85%;
+  max-height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+}
+
+main .card .card-body h5 {
+  color: var(--title);
+  font-weight: 700;
+}
+
+main .card .card-body p {
+  color: var(--text);
+  font-size: 0.81rem;
+}
+
+footer {
+  grid-area: footer;
+  background: var(--dark);
+
+  width: 100%;
+  height: 100%;
+
+  max-width: 90vw;
+  max-height: 220px;
+
+  border-bottom: 1.625rem solid #38474c;
+}
+
+.links ul li a {
+  font-size: 0.9rem;
+  color: var(--white);
+
+  transition: 0.3s;
+}
+
+.links ul li a:hover {
+  color: var(--text);
+}
+
+@media (max-width: 990px) {
+  html {
+    font-size: 93.75%;
+  }
+
+  .container-bredi {
+    max-width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+
+    grid-template-areas:
+      "header"
+      "main"
+      "footer";
+
+    row-gap: 10px;
+  }
+
+  .container-bredi header .header-inner {
+    max-width: 100%;
+  }
+
+  #collapsibleNavbar .d-flex {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 20px;
+  }
+
+  .container-bredi main {
+    max-width: 80%;
+    height: 100%;
+  }
+
+  .container-bredi footer {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+
+  body {
+    width: 100vh;
+    max-width: 100%;
+  }
+  .container-bredi {
+    max-width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+
+    grid-template-areas:
+      "header"
+      "main";
+
+    row-gap: 10px;
+  }
+
+  .container-bredi header .header-inner {
+    max-width: 100%;
+  }
+
+  .container-bredi header .header-inner nav div .navbar-brand.ms-5 {
+    margin-left: 0 !important;
+  }
+
+  .container-bredi main {
+    max-width: 100%;
+    height: 100%;
+  }
+  .col-md-3.px-1 {
+    padding: 0 10px !important;
+  }
+  .container-bredi footer {
+    display: none;
+  }
+}

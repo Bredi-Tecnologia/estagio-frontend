@@ -1,0 +1,131 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+/* body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #5a5a5a;
+} */
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+#section-carousel {
+  width: 100%;
+  margin-bottom: 4rem;
+
+  background-color: red;
+}
+
+/* Carousel base class */
+.carousel {
+  /* margin-top: 1.25rem; */
+  /* margin-bottom: 4rem; */
+}
+.carousel-indicators a {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 30px;
+  height: 3px;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: 0.5;
+  transition: opacity 0.6s ease;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 24.7rem;
+}
+#img-banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 800ms !important;
+}
+
+.carousel-caption.text-custom {
+  width: 40%;
+  height: 70%;
+  left: 6rem !important;
+  margin-top: 3rem;
+}
+
+.carousel-caption h3 {
+  color: #f7d622;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.carousel-caption p {
+  font-size: 1rem !important;
+  line-height: 1.25rem;
+  font-weight: 400 !important;
+}
+
+.carousel-control-prev {
+  justify-content: flex-start;
+}
+
+.carousel-control-next {
+  justify-content: flex-end;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 2.8rem;
+  height: 6rem;
+  background-color: #fff;
+  background-image: none;
+}
+.carousel-control-prev-icon svg,
+.carousel-control-next-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+
+  #img-banner {
+    width: 100 !important;
+    /* height: 100vh !important; */
+    object-fit: cover !important;
+  }
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
