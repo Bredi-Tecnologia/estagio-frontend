@@ -1,0 +1,134 @@
+@media (max-width: 1100px) {
+nav {
+    display: none;
+}
+
+.one,
+.two,
+.three {
+    background-color: #F7D622;
+    height: 3px;
+    width: 100%;
+    margin: 6px auto;
+    transition-duration: 0.3s;
+}
+.menu-toggle {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 50px;
+    top: 18px;
+}
+/* fullscreen */
+.header.on {
+    position: absolute;
+    top:0;
+    left:0;    
+    width: 100vw;
+    height: 100vh;
+    background-color:  #1B2629;   
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+}
+.header.on .logo{
+    left: -3rem;
+}
+.header.on .logo img{
+    width: 8rem;
+    height: 2.5rem;
+}
+
+.header.on nav {
+    display: block;
+}
+
+.header.on .menu-toggle {
+    position: absolute;
+    right: 50px;
+    top: 15px;
+}
+
+.header.on .menu-toggle .one {
+    transform: rotate(45deg) translate(5px, 4px);
+}
+
+.header.on .menu-toggle .two {
+    opacity: 0;
+}
+
+.header.on .menu-toggle .three {
+    transform: rotate(-45deg) translate(8px, -8px);
+}
+
+.header.on nav ul {
+    text-align: center;
+    display: block;
+    left: -0.5rem;
+}
+
+.header.on nav ul a{
+    transition-duration: 0.5s;
+    font-size: 1.3rem;
+    line-height: 4rem;
+    display: block;
+    margin: auto;
+} 
+
+/* cards */
+.noticia-conteudo p{
+    font-size: 10px;
+    word-break: normal;
+}
+
+.noticia-conteudo img{
+    width: 11rem;
+    height: 11rem;
+}
+}
+
+@media (max-width: 710px){
+.footer-content{
+    width: 80%;
+}
+.menu-link-rodape{
+    margin: 0 1rem;
+}
+.rodape{
+    margin-top: 1rem;
+    width: 85%;
+    left: 5%;
+}
+.social-media-rodape i{
+    margin-bottom: 5px;
+}
+.endereco{
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+}
+}
+
+@media (max-width: 645px){
+.footer-content{
+    width: 50%;
+}
+.logo-rodape{
+    left: -5%;
+}
+.endereco{
+    display: none;
+}
+.menu-nav-rodape{
+    flex-direction: column;
+}
+.social-media-rodape{
+    margin-left: 10px;
+}
+.social-media-rodape img{
+    margin-top: 1rem;
+}
+}
+
+
