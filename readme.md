@@ -1,7 +1,7 @@
 
 <p align="center">
   <a href="https://www.bredi.com.br">
-    <img width="250" src="https://raw.githubusercontent.com/camilaserra/estagio-frontend/master/public/img/logo.png">
+    <img width="250" src="https://raw.githubusercontent.com/camilaserra/estagio-frontend/29930eee6e210db045a010919ed098c9eb1eb595/public/img/logo.svg">
   </a>
 </p>
 
