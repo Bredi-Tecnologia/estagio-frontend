@@ -10,7 +10,7 @@
 ### Passo 1 - Clone o repositorio
 
 ```cs
-Para começar, faça o clone do repositório com o seguinte comando:
+# Para começar, faça o clone do repositório com o seguinte comando:
 Git clone https://github.com/camilaserra/bredi.git
 ```
 
@@ -19,7 +19,7 @@ Git clone https://github.com/camilaserra/bredi.git
 Acesse a pasta raiz do seu projeto e execute o comando abaixo:
 
 ```cs
-# Instalando com npm:
+ Instalando com npm:
 npm install
 ```
 ```cs
