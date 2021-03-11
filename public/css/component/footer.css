@@ -1,0 +1,49 @@
+#footer {
+    background-color: #1b2629;
+    border-bottom: 35px solid #37474b;
+}
+
+#footer .logo-footer {
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#footer ul {
+    margin: 50px 0 0 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#footer ul li {
+    list-style: none;
+    margin: 0 65px 0 0;
+}
+
+#footer ul li:last-child {
+    margin: 0;
+}
+
+#footer ul .facebook {
+    margin: 0 25px 0 0;
+}
+
+#footer ul li a {
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#footer address, 
+#footer a#email {
+    margin: 15px 0 0 0;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+    color: #FFF;
+    font-size: 18px;
+    text-decoration: none;
+}

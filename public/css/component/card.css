@@ -1,0 +1,74 @@
+#card {
+    padding: 35px 0 35px 0;
+}
+
+#card .card-title {
+    margin: 10px 0 0 0;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    color: #000000;
+}
+
+#card .card-description {
+    margin: 5px 0 0 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #707070;
+}
+
+#card #btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 85px 0 85px 0;
+    
+}
+
+#card #btn button {
+    width: 260px;
+    height: 60px;
+    background-color: #ffdb3c;
+    border: 2px solid #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+#card #btn button:hover {
+    background-color: #f1cf39;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+[data-anime] {
+    opacity: 0;
+    transition: .3s;
+}
+
+[data-anime="left"] {
+    transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime="right"] {
+
+    transform: translate3d(50px, 0, 0);
+}
+
+[data-anime="top"] {
+    transform: translate3d(0, -50px, 0);
+}
+
+[data-anime].animate {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}

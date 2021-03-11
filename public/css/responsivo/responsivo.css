@@ -1,0 +1,237 @@
+@media only screen and (min-width: 0px) and (max-width: 481px) {
+   
+    /* HEADER */
+   
+    #menu header nav ul {
+        text-align: center;
+    }
+    #menu header nav ul li {
+        width: 100%;
+        border-bottom: 1px solid #302e2e;   
+    }
+    
+    /*CARDS*/
+
+    #card .container .col-md-3 {
+        padding: 15px 15px;
+    }
+
+    #card img {
+        width: 40vh;
+        border-radius: 0.3em;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;   
+    }
+
+    #card .card-title {
+        font-size: 16px;
+        margin-left: 10px;
+        text-align: center;  
+    }
+
+    #card .card-description {
+        text-align: center; 
+    }
+
+    /*FOOTER*/
+    
+     #footer img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;   
+    }
+
+    #footer address {
+      text-align: center;
+    }
+
+    #footer .col-md-6 #email {
+         float: none;
+         color: #fff;
+         margin-left: 115px ;
+    }    
+}
+
+@media only screen and (min-width: 480px) and (max-width: 601px) {
+    
+    /* HEADER */
+
+    #menu header nav ul {
+        text-align: center;
+    }
+    #menu header nav ul li {
+        width: 100%;
+        border-bottom: 1px solid #302e2e;
+    }
+
+    /*CARDS*/
+
+    #card .container .col-md-3 {
+        padding: 15px 15px;
+    }
+
+    #card img {
+        width: 45vh;
+        border-radius: 0.3em;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;   
+    }
+
+    #card .card-title {
+        font-size: 18px;
+        margin-left: 10px;
+        text-align: center;  
+    }
+
+    #card .card-description {
+        text-align: center; 
+    }
+
+    /*FOOTER*/
+    
+    #footer img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;   
+    }
+
+    #footer address {
+      text-align: center;
+    }
+
+    #footer .col-md-6 #email {
+         float: none;
+         color: #fff;
+         margin-left: 115px ;
+    }  
+
+}
+  
+@media only screen and (min-width: 600px) and (max-width: 750px) {
+    
+    /* HEADER */
+
+    #menu header nav ul {
+        text-align: center;
+    }
+    #menu header nav ul li {
+        width: 100%;
+        border-bottom: 1px solid #302e2e;
+    }
+
+    /*CARDS*/
+    #card .container .col-md-3 {
+        padding: 15px 15px;
+    }
+
+    #card img {
+        width: 50vh;
+        border-radius: 0.3em;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;   
+    }
+
+    #card .card-title {
+        font-size: 20px;
+        margin-left: 10px;
+        text-align: center;  
+    }
+
+    #card .card-description {
+        text-align: center; 
+    }
+
+    /*FOOTER*/
+    
+    #footer img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;   
+    }
+
+    #footer address {
+      text-align: center;
+    }
+
+    #footer .col-md-6 #email {
+        
+        display: flex;
+        align-items: center;
+    }  
+}
+
+@media only screen and (min-width: 751px) and (max-width: 992px) {
+    
+    /* HEADER */
+
+    #menu header nav ul {
+        text-align: center;
+    }
+    #menu header nav ul li {
+        width: 100%;
+        border-bottom: 1px solid #302e2e;
+    }
+
+    /*BANNER*/
+
+    #banner .carousel-caption {
+        max-width: 200px;
+    }
+    
+    #banner .carousel-caption h5 {
+        font-size: 20px;
+    }
+    
+    #banner .carousel-caption p {
+        font-size: 11px;  
+    }
+
+    /*CARDS*/
+   
+    #card .card-title {
+        font-size: 14px;
+        margin-left: 10px;
+        text-align: center;  
+    }
+
+    #card .card-description {
+        text-align: center; 
+        font-size: 12px;
+    }
+    
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1382px) {
+    
+    /*BANNER*/
+    
+    #banner .carousel-caption {
+        max-width: 320px;
+    }
+    
+    #banner .carousel-caption h5 {
+        font-size: 40px;
+    }
+    
+    #banner .carousel-caption p {
+        font-size: 13px;  
+    }
+    
+    /*CARDS*/
+   
+    #card .card-title {
+        font-size: 16px;
+        margin-left: 10px;
+        text-align: center;  
+    }
+
+    #card .card-description {
+        text-align: center; 
+        font-size: 12px;
+    }
+}
+    
+

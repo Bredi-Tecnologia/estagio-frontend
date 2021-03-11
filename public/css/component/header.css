@@ -1,0 +1,48 @@
+#menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+#menu header {
+    background-color: #1b2629;
+    padding: 10px 0 10px 0;
+}
+
+#menu header nav {
+    background-color: #1b2629;
+    border: none;
+}
+
+#menu header nav ul li {
+    margin-right: 70px;
+}
+
+#menu header nav ul li:last-child {
+    margin-right: 0;
+}
+
+#menu header nav ul li.facebook {
+    margin: 8px 30px 0 0;
+    padding: 0;
+}
+
+#menu header nav ul li.instagram  {
+    margin: 4.5px 0 0 0;
+    padding: 0;
+}
+
+#menu header nav ul li.facebook a {
+    font-size: 18px;
+}
+ 
+#menu header nav ul li.instagram a {
+    font-size: 22px;
+}
+
+#menu header nav ul li a {
+    font-family: 'Montserrat', sans-serif;
+    color: #F7D622;
+    font-size: 16px;
+}

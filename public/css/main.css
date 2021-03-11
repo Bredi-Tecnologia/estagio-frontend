@@ -1,0 +1,17 @@
+/* Fonts */
+@import url('./font/font.css');
+
+/* Libs */
+@import url('/bootstrap/dist/css/bootstrap.min.css');
+@import url('/@fortawesome/fontawesome-free/css/all.css');
+
+/* Components */
+@import url('./component/header.css');
+@import url('./component/banner.css');
+@import url('./component/card.css');
+@import url('./component/footer.css');
+
+/* Responsivo */
+@import url('./responsivo/responsivo.css');
+
+

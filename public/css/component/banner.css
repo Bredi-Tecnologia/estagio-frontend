@@ -1,0 +1,36 @@
+#banner {
+    margin-top: 50px;
+    padding: 45px 0 45px 0;
+}
+
+#banner .carousel-caption {
+    max-width: 420px;
+    top: 15%;
+    text-align: left;
+}
+
+#banner .carousel-caption h5 .span-border {
+    height: 4px;
+    width: 40px;
+    background-color: #F7D622;
+    border-radius: 2em;
+    margin: 20px 8px 0 0 ;
+}
+
+#banner .carousel-caption h5 {
+    display: flex;
+    font-size: 48px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #F7D622;
+    letter-spacing: .1em;
+}
+
+#banner .carousel-caption p {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color: #FFF;
+    
+}
+
